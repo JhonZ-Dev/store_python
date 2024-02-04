@@ -82,3 +82,23 @@ clientes = [
 ]
 
 ventas = []
+# Menú principal
+while True:
+    print("\nSistema de Tienda")
+    print("1. Agregar Producto")
+    print("2. Listar Productos")
+    print("3. Realizar Venta")
+    print("4. Salir")
+
+    opcion = input("Seleccione una opción: ")
+
+    if opcion == '1':
+        agregar_producto()
+    elif opcion == '2':
+        listar_productos()
+    elif opcion == '3':
+        realizar_venta()
+    elif opcion == '4':
+        break
+    else:
+        print("Opción no válida. Por favor, ingrese una opción válida.")
