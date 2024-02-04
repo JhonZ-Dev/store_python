@@ -66,3 +66,12 @@ def buscar_producto(id_producto):
         if producto.id_producto == id_producto:
             return producto
     return None
+
+
+
+# Inicialización de datos
+productos = [
+    Producto("P001", "Camiseta", 20.0, 50),
+    Producto("P002", "Pantalón", 30.0, 30),
+    Producto("P003", "Zapatos", 50.0, 20)
+]
