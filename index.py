@@ -31,3 +31,5 @@ def realizar_venta():
     id_cliente = input("Ingrese el ID del cliente: ")
     cliente = buscar_cliente(id_cliente)
 def realizar_venta():
+    id_cliente = input("Ingrese el ID del cliente: ")
+    cliente = buscar_cliente(id_cliente)
