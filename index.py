@@ -33,3 +33,11 @@ def realizar_venta():
 def realizar_venta():
     id_cliente = input("Ingrese el ID del cliente: ")
     cliente = buscar_cliente(id_cliente)
+
+    if cliente:
+        productos_venta = []
+        while True:
+            listar_productos()
+            id_producto = input("Ingrese el ID del producto a vender (0 para finalizar): ")
+            if id_producto == '0':
+                break
