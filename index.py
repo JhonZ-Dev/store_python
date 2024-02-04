@@ -18,3 +18,5 @@ class Venta:
 def agregar_producto():
     id_producto = input("Ingrese el ID del producto: ")
     nombre = input("Ingrese el nombre del producto: ")
+    precio = float(input("Ingrese el precio del producto: "))
+    stock = int(input("Ingrese el stock inicial del producto: "))
