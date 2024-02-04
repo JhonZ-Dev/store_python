@@ -22,3 +22,4 @@ def agregar_producto():
     stock = int(input("Ingrese el stock inicial del producto: "))
     producto = Producto(id_producto, nombre, precio, stock)
     productos.append(producto)
+    print("Producto agregado con éxito.")
