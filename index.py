@@ -54,3 +54,5 @@ def realizar_venta():
             print("Venta realizada con éxito.")
         else:
             print("No se realizaron ventas.")
+    else:
+        print("Cliente no encontrado.")
