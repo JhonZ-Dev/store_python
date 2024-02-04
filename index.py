@@ -75,3 +75,8 @@ productos = [
     Producto("P002", "Pantalón", 30.0, 30),
     Producto("P003", "Zapatos", 50.0, 20)
 ]
+clientes = [
+    Cliente("C001", "Juan Pérez", "Calle 123", "juan@gmail.com"),
+    Cliente("C002", "María López", "Avenida 456", "maria@gmail.com"),
+    Cliente("C003", "Carlos Rodríguez", "Plaza Principal", "carlos@gmail.com")
+]
