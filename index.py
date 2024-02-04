@@ -61,3 +61,8 @@ def buscar_cliente(id_cliente):
         if cliente.id_cliente == id_cliente:
             return cliente
     return None
+def buscar_producto(id_producto):
+    for producto in productos:
+        if producto.id_producto == id_producto:
+            return producto
+    return None
