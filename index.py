@@ -80,3 +80,5 @@ clientes = [
     Cliente("C002", "María López", "Avenida 456", "maria@gmail.com"),
     Cliente("C003", "Carlos Rodríguez", "Plaza Principal", "carlos@gmail.com")
 ]
+
+ventas = []
