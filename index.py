@@ -52,3 +52,5 @@ def realizar_venta():
             venta = Venta(id_venta, cliente, productos_venta)
             ventas.append(venta)
             print("Venta realizada con éxito.")
+        else:
+            print("No se realizaron ventas.")
