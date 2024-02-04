@@ -27,3 +27,6 @@ def listar_productos():
     print("Lista de productos:")
     for producto in productos:
         print(f"{producto.id_producto} - {producto.nombre} - Precio: ${producto.precio} - Stock: {producto.stock}")
+def realizar_venta():
+    id_cliente = input("Ingrese el ID del cliente: ")
+    cliente = buscar_cliente(id_cliente)
