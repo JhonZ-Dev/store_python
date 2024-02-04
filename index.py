@@ -15,3 +15,6 @@ class Venta:
         self.id_venta = id_venta
         self.cliente = cliente
         self.productos = productos
+def agregar_producto():
+    id_producto = input("Ingrese el ID del producto: ")
+    nombre = input("Ingrese el nombre del producto: ")
