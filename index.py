@@ -23,3 +23,7 @@ def agregar_producto():
     producto = Producto(id_producto, nombre, precio, stock)
     productos.append(producto)
     print("Producto agregado con éxito.")
+def listar_productos():
+    print("Lista de productos:")
+    for producto in productos:
+        print(f"{producto.id_producto} - {producto.nombre} - Precio: ${producto.precio} - Stock: {producto.stock}")
