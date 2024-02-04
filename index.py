@@ -20,3 +20,5 @@ def agregar_producto():
     nombre = input("Ingrese el nombre del producto: ")
     precio = float(input("Ingrese el precio del producto: "))
     stock = int(input("Ingrese el stock inicial del producto: "))
+    producto = Producto(id_producto, nombre, precio, stock)
+    productos.append(producto)
